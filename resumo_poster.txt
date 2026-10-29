@@ -1,0 +1,32 @@
+=========================================================
+ RESUMO DOS RESULTADOS PARA O POSTER (BANDA G)
+=========================================================
+
+--- 1. FREE FIT (Ajuste Livre) ---
+Alpha_high medio: -4.886 +/- 0.321
+Alpha_high mediano: -5.000
+PSD_norm mediano: 5.25e-03
+C_noise mediano: 7.72e-02
+
+--- 2. VALORES DE NU_B POR BIN DE MASSA (FFT) ---
+Bin Massa: 1 | Centro: 7.80 | nu_b: 1.29e-03
+Bin Massa: 2 | Centro: 8.24 | nu_b: 1.37e-03
+Bin Massa: 3 | Centro: 8.69 | nu_b: 1.38e-03
+Bin Massa: 4 | Centro: 9.16 | nu_b: 1.43e-03
+
+Correlacao Pearson (Massa vs log_nu_b): r=0.94, p=0.057
+Slope do nosso Free Fit (Massa): 0.03
+
+--- 3. VALORES DE NU_B POR BIN DE EDDINGTON (FFT) ---
+Bin Edd: 1 | Centro: -1.65 | nu_b: 1.45e-03
+Bin Edd: 2 | Centro: -1.20 | nu_b: 1.21e-03
+Bin Edd: 3 | Centro: -0.76 | nu_b: 1.38e-03
+Bin Edd: 4 | Centro: -0.37 | nu_b: 1.20e-03
+
+Correlacao Pearson (Edd vs log_nu_b): r=-0.58, p=0.422
+Slope do nosso Free Fit (Edd): -0.04
+
+--- 4. COMPARACAO COM PETRECCA ---
+Valor de referencia Petrecca (2026): nu_b ~ 2.7e-3 day^-1 para M ~ 7.5e8 M_sun, alpha_high = -2.7
+A nossa media de alpha_high esta proxima ou longe de -2.7? Ver item 1.
+Os nossos valores de nu_b estao na mesma ordem de grandeza? Ver item 2.
