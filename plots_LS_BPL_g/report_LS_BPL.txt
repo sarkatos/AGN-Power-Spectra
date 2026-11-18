@@ -1,0 +1,56 @@
+REPORT: Lomb-Scargle + Bending Power Law (Petrecca+2026, Full Curve)
+================================================================================
+
+=== MEASURED SEASONAL GAPS (REST-FRAME) ===
+Objects with measurable gaps (>= 60.0 d obs): 468/468
+Median dt_gap (rest-frame) = 88.72 d (16th-84th pct: 70.25 - 104.33 d)
+Median f_gap     (rest-frame) = 1.127e-02 d^-1 (log10 f_gap = -1.948)
+
+=== GLOBAL ENSEMBLE (FULL CURVE) ===
+f_min_global = 5.533e-04 d^-1, f_max = 0.714 d^-1
+alpha_low = -1.000 [fixed]
+nu_b search range = (0, inf) [unbounded]
+
+BPL: norm                = 9.475e-04 +/- 1.052e-04
+           alpha_low     = -1.000 [fixed]
+           alpha_high = -2.364 +/- 0.506
+           nu_b                = 2.18e-02 +/- 5.26e-03 [in_range]
+           noise               = 1.111e-02
+
+=== BEND FREQUENCY REGIME STATUS (Bins with N >= 15) ===
+Total fitted bins: 11
+     - inside observed range (in_range): 9
+     - outside observed range (out_range): 2
+
+=== BPL FITS (alpha_low fixed at -1; alpha_high free; nu_b unbounded) ===
+group  bin          label   N    center  alpha_low  alpha_low_err  alpha_high  alpha_high_err         nu_b  nu_b_err     norm  norm_err    noise nu_b_regime
+ mass    1        7.5–8.0  56  7.888652       -1.0            0.0   -2.403451        0.537546 2.780207e-02  0.007468 0.000755  0.000092 0.009745    in_range
+ mass    2        8.0–8.5 169  8.272729       -1.0            0.0   -2.524727        0.573228 2.799185e-02  0.006472 0.000750  0.000073 0.009454    in_range
+ mass    3        8.5–9.0 181  8.734877       -1.0            0.0   -2.347609        0.563438 2.111434e-02  0.005414 0.001141  0.000117 0.013719    in_range
+ mass    4        9.0–9.5  49  9.180027       -1.0            0.0   -2.227088        0.525625 1.615054e-02  0.005566 0.001203  0.000178 0.014162    in_range
+  edd    1      -2.0–-1.5  23 -1.671467       -1.0            0.0   -2.100487        0.720593 2.706473e-02  0.013697 0.001517  0.000280 0.019749    in_range
+  edd    2      -1.5–-1.0 135 -1.184533       -1.0            0.0   -1.316576        0.385203 2.506552e-09  0.000001 0.106194  5.952634 0.015041   out_range
+  edd    3      -1.0–-0.5 202 -0.732566       -1.0            0.0   -2.343120        0.544745 2.443599e-02  0.006224 0.000803  0.000087 0.009312    in_range
+  edd    4       -0.5–0.0 102 -0.329937       -1.0            0.0   -2.515379        0.618232 2.746260e-02  0.007352 0.000650  0.000078 0.009174    in_range
+ tmax    0 [-3.06, -2.43] 155 -2.542088       -1.0            0.0   -1.249670        0.497555 4.439667e-09  0.000002 0.033528  1.370244 0.014212   out_range
+ tmax    1 [-2.43, -2.24] 154 -2.331760       -1.0            0.0   -2.538914        0.696987 2.573082e-02  0.006418 0.000818  0.000082 0.010458    in_range
+ tmax    2 [-2.24, -1.94] 159 -2.127485       -1.0            0.0   -2.430789        0.543816 2.739481e-02  0.007158 0.000714  0.000079 0.009266    in_range
+
+=== SLOPES (ALPHA_LOW & ALPHA_HIGH) BY GROUP ===
+
+[mass]
+     7.5–8.0            N=  56     alpha_low = -1.000 [fixed]     alpha_high =  -2.403 +/- 0.538     nu_b = 2.78e-02 [in_range]
+     8.0–8.5            N= 169     alpha_low = -1.000 [fixed]     alpha_high =  -2.525 +/- 0.573     nu_b = 2.80e-02 [in_range]
+     8.5–9.0            N= 181     alpha_low = -1.000 [fixed]     alpha_high =  -2.348 +/- 0.563     nu_b = 2.11e-02 [in_range]
+     9.0–9.5            N=  49     alpha_low = -1.000 [fixed]     alpha_high =  -2.227 +/- 0.526     nu_b = 1.62e-02 [in_range]
+
+[edd]
+     -2.0–-1.5          N=  23     alpha_low = -1.000 [fixed]     alpha_high =  -2.100 +/- 0.721     nu_b = 2.71e-02 [in_range]
+     -1.5–-1.0          N= 135     alpha_low = -1.000 [fixed]     alpha_high =  -1.317 +/- 0.385     nu_b = 2.51e-09 [out_range]
+     -1.0–-0.5          N= 202     alpha_low = -1.000 [fixed]     alpha_high =  -2.343 +/- 0.545     nu_b = 2.44e-02 [in_range]
+     -0.5–0.0           N= 102     alpha_low = -1.000 [fixed]     alpha_high =  -2.515 +/- 0.618     nu_b = 2.75e-02 [in_range]
+
+[tmax]
+     [-3.06, -2.43]     N= 155     alpha_low = -1.000 [fixed]     alpha_high =  -1.250 +/- 0.498     nu_b = 4.44e-09 [out_range]
+     [-2.43, -2.24]     N= 154     alpha_low = -1.000 [fixed]     alpha_high =  -2.539 +/- 0.697     nu_b = 2.57e-02 [in_range]
+     [-2.24, -1.94]     N= 159     alpha_low = -1.000 [fixed]     alpha_high =  -2.431 +/- 0.544     nu_b = 2.74e-02 [in_range]
